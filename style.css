@@ -64,7 +64,7 @@ a:hover {
   border-radius: 8px;
   padding: 20px;
   width: 300px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 8px rgba(122, 55, 55, 0.1);
 }
 
 .projeto h3 {
@@ -84,4 +84,33 @@ a:hover {
 .projeto a:hover {
   background: #1a5276;
   text-decoration: none;
+}
+button {
+  background: #2980b9;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #1a5276;
+}
+
+.tema-escuro {
+  background-color: #1a1a2e;
+  color: #eee;
+}
+
+.tema-escuro h1,
+.tema-escuro h2 {
+  color: #74b9ff;
+}
+
+.tema-escuro .projeto {
+  background: #16213e;
+  border-color: #444;
 }
